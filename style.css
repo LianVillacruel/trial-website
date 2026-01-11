@@ -3,82 +3,71 @@ body{
     padding: 0;
    
 }
-.header{
-    max-width: 900px;
-    margin: 0 auto; 
-    height: auto;
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
-    padding: 20px;
-    padding-top: 40px;
-    
-    
+.page {
+    max-width: 900px;     /* controls content width */
+    margin: 0 auto;        /* centers content */
+    padding: 40px 20px;    /* space from screen edges */
 }
-.my-pic{
-    width: 130px;
-    border: solid black 2px;
-    border-radius: 20px;
+
+.header{
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+   
+  
+}
+.my-pic-div{
+    display: inline-block;
+    height: 100% ; 
+    border: 2px solid rgb(61, 61, 61);
+    border-radius: 10px;
    
     
 }
-.info{
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-start;
+.my-pic{
+    height: 100%;
+    
 }
-.name,.address,.position,.contacts-below{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 29px;
+.my-info{
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    height: 93%;
+    padding-top: 15px;
+    
+}.name,.address,.position{
     margin: 0;
+    line-height: 25px;
     
 }
 .name{
-    margin-top: 10px;
-    font-size: 40px;
+    font-size: clamp(16px, 6vw, 40px);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
     
-}
+}   
 .address{
-    font-size: 15px;
-    color: grey;
+   font-size: clamp(11px, 3vw, 14px);
+    margin-bottom: 15px;
+    color: rgb(45, 45, 45);
+    font-family: Arial, Helvetica, sans-serif;
+     white-space: nowrap;      /* DO NOT wrap */
+    overflow: hidden;         /* prevent overlap */
+    text-overflow: ellipsis;  /* optional ... */
+
+    line-height: 1.2;
+
 }
 .position{
-    font-size: 14px;
-    font-weight: bold;
-    color: grey;
-    padding-bottom: 20px;
+    font-size: clamp(12px, 3vw, 14px);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-@media (max-width: 668px) {
-    .my-pic {
-        width: 90px;
-    }
-
-    .name {
-        font-size: 20px;
-    }
-
-    .address {
-        font-size: 13px;
-    }
-
-    .position {
-        font-size: 12px;
-    }
-
-    .contacts-below {
-        font-size: 14px;
-    }
-}
-@media (max-width: 1200px) {
-    .header {
-        margin: 0 20px;   /* keeps space on small screens */
-    }
-}
-.main-body{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: aqua;
-    height: 1000px;
+.address i{
+    margin-right: 3px;
 }
