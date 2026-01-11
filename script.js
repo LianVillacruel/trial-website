@@ -1,1 +1,1 @@
-alert("This Website is not done yet. Dont Judge Me!");
+alert("This Website is not done yet. Do not Judge Me!");
