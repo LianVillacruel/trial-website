@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  background-color: #f8f9fb ;
+  background-color: #f8f9fb;
 }
 /*======= Whole Page CSS =======*/
 .page {
@@ -18,7 +18,7 @@ body {
 .section-heading-txt {
   font-size: clamp(12px, 5.5vw, 16px);
   font-family: Arial, Helvetica, sans-serif;
-  color: #111827
+  color: #111827;
 }
 .section-heading-txt i {
   font-size: 18px;
@@ -48,14 +48,14 @@ body {
   text-align: center;
 }
 .name-txt {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(30px, 5.5vw, 50px);
   font-weight: lighter;
   margin: 0;
 }
 .location-txt {
   margin: 1vh 0;
-  font-size: clamp(9px, 5.5vw, 16px);
+  font-size: clamp(9px, 3.5vw, 16px);
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(58, 58, 58);
 }
@@ -64,7 +64,7 @@ body {
 }
 .role-txt {
   margin: 2vh 0;
-  font-size: clamp(8px, 5.5vw, 20px);
+  font-size: clamp(10px, 3.5vw, 20px);
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(58, 58, 58);
 }
@@ -86,7 +86,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(8px, 5.5vw, 15px);
   line-height: 25px;
-  color: #4B5563 ;
+  color: #4b5563;
 }
 .tech-skills-div {
   background-color: white;
@@ -94,7 +94,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   border: solid 0.5px rgb(229, 229, 229);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 
 .skills-txt {
@@ -102,7 +102,7 @@ body {
 }
 .skills-name {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(8px, 5.5vw, 15px);
+  font-size: clamp(10px, 3.5vw, 15px);
   color: rgb(72, 72, 72);
 }
 .skills-span-div {
@@ -136,7 +136,7 @@ body {
   border: solid 0.5px rgb(229, 229, 229);
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 .experience-main-list-div {
   display: flex;
@@ -164,14 +164,14 @@ body {
   margin: 0;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #4B5563 ;
+  color: #4b5563;
 }
 .second-div-left-upper {
   padding: 20px;
   background-color: white;
   border: solid 0.5px rgb(229, 229, 229);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 .project-card-main-div {
   display: flex;
@@ -199,14 +199,18 @@ body {
 }
 .projects-card h3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(8px, 5.5vw, 18px);
+  font-size: clamp(15px, 3.5vw, 18px);
   margin: 0;
 }
 .projects-card p {
   margin: 3px 0 15px 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(58, 58, 58);
-  font-size: clamp(8px, 5.5vw, 13px);
+  font-size: clamp(8px, 3.5vw, 13px);
+}
+.project-title-grp {
+  display: flex;
+  justify-content: space-between;
 }
 .project-tech-stack {
   display: flex;
@@ -235,7 +239,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   border: solid 0.5px rgb(229, 229, 229);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 .SY-acads-cards {
   padding: 15px;
@@ -244,21 +248,21 @@ body {
 }
 .school-year-level {
   margin: 0;
-  font-size: clamp(11px, 5.5vw, 15px);
+  font-size: clamp(11px, 2.5vw, 15px);
   font-family: Arial, Helvetica, sans-serif;
 }
 .school-name {
   margin: 0;
-  font-size: clamp(8px, 5.5vw, 12px);
+  font-size: clamp(8px, 2.5vw, 12px);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgb(72, 72, 72);
 }
 .acads-details {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: clamp(10px, 5.5vw, 14px);
+  font-size: clamp(10px, 3.5vw, 14px);
   line-height: 20px;
-  color: #4B5563 ;
+  color: #4b5563;
 }
 
 .beyond-coding-main-div {
@@ -267,10 +271,10 @@ body {
   padding: 20px;
   border-radius: 10px;
   border: solid 0.5px rgb(229, 229, 229);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
 .beyond-coding-main-div p {
-  font-size: clamp(10px, 5.5vw, 14px);
+  font-size: clamp(12px, 3.5vw, 14px);
   line-height: 22px;
   font-family:
     system-ui,
@@ -284,13 +288,13 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
-    color: #4B5563 ;
+  color: #4b5563;
 }
-footer{
+footer {
   text-align: center;
   border-top: solid 0.5px rgb(229, 229, 229);
   color: rgb(82, 82, 82);
-  font-size: 15px;
+  font-size: clamp(5px, 2.5vw, 14px);
   padding: 2% 0 1% 0;
 }
 /*======== Responsiveness =======*/
